@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { useRouter } from 'next/router';
 
 
-export default function Nav({iscontact}:String) {
+export default function Nav({iscontact}:any) {
     const router = useRouter();
   return (
     <div className={styles.container}>
