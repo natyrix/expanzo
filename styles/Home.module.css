@@ -1,5 +1,40 @@
 .container {
   padding: 0 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.containerDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.containerDiv span {
+  padding-left: 1em;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 1em;
+}
+.btn {
+  cursor: pointer;
+}
+.contacticon {
+  width: 20px;
+  height: 20px;
+  margin-left: 1em;
+  color: #139577;
+}
+
+.containerDivIcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .main {
@@ -12,22 +47,97 @@
   align-items: center;
 }
 
+.homePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 12rem;
+}
+.titles {
+  display: flex;
+}
+.navContainer {
+  height: 2.4em;
+  padding-top: 7px;
+  background-color: #139577;
+  color: #daeeeb;
+}
+
+.titles div {
+  padding: 2rem 2rem 0 2rem;
+  margin-left: 3em;
+}
+
+.footer1 {
+  margin: 0 25%;
+}
+
+.highlight {
+  color: #139577;
+}
+
+.highlightdiv {
+  border-bottom: 1.4px solid #139577;
+}
+
 .footer {
   display: flex;
-  flex: 1;
+  flex-direction: row;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  /* justify-content: center; */
+  justify-content: space-between;
+  align-items: center;
+}
+.footerdiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footerdiv span {
+  font-weight: bold;
+  margin-left: 3em;
+}
+
+.contactContainer {
+  padding-top: 5.5rem;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.footer a {
+.row {
+  display: flex;
+}
+.row1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-grow: 1;
+}
+.row1 span {
+  padding-left: 0.5rem;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.col2 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+.col1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 6rem;
 }
 
+.spbold {
+  font-weight: bold;
+  font-size: 0.9em;
+}
 .title a {
   color: #0070f3;
   text-decoration: none;
